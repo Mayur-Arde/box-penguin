@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+
+.rectangle {
+  width: 900px;
+  height:450px;
+  background: rgb(3, 226, 219);
+}
+
+.rectangle2 {
+  width: 330px;
+  height: 500px;
+  background-color: black;
+  position: absolute;
+  bottom: -10px;
+  left: 590px;
+  border-radius: 70px;
+}
+
+.tringle {
+  width: 0px;
+  height: 0px;
+  border-left: 90px solid yellow;
+  border-top: 45px solid transparent;
+  border-bottom: 45px solid transparent;
+  position: absolute;
+  right: -90px;
+  top:100px;
+}
+
+.eye {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+
+  
